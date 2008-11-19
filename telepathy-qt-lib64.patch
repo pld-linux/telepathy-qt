@@ -1,0 +1,8 @@
+--- src/Client/CMakeLists.txt   2008-11-19 16:12:59.000000000 +0100
++++ src/Client/CMakeLists.txt-new       2008-11-19 16:28:15.146709250 +0100
+@@ -93,4 +93,4 @@
+ ADD_LIBRARY(QtTelepathyClient SHARED ${library_SRCS} ${library_MOC_SRCS})
+ SET_TARGET_PROPERTIES(QtTelepathyClient PROPERTIES VERSION ${VERSION} SOVERSION ${SO_VERSION})
+ TARGET_LINK_LIBRARIES(QtTelepathyClient ${QT_LIBRARIES})
+-INSTALL(TARGETS QtTelepathyClient DESTINATION lib)
++INSTALL(TARGETS QtTelepathyClient DESTINATION lib${LIB_SUFFIX})
