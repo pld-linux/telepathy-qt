@@ -31,7 +31,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %package devel
 Summary:        Header files for telepathy-qt library
-Summary(pl.UTF-8):      Pliki nag舿B贸wkowe biblioteki telepathy-qt
+Summary(pl.UTF-8):      Pliki nag艂贸wkowe biblioteki telepathy-qt
 Group:          Development/Libraries
 Requires:      %{name} = %{version}-%{release}
 
@@ -39,7 +39,7 @@ Requires:      %{name} = %{version}-%{release}
 Header files for telepathy-qt library.
 
 %description devel -l pl.UTF-8
-Pliki nag舿B贸wkowe biblioteki telepathy-qt
+Pliki nag艂贸wkowe biblioteki telepathy-qt
 
 %prep
 %setup -q -n %{name}-%{version}-%{snap}
