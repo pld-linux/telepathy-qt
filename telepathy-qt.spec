@@ -45,7 +45,7 @@ Pliki nagłówkowe biblioteki telepathy-qt.
 
 %prep
 %setup -q -n %{name}-%{version}-%{snap}
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 install -d build
