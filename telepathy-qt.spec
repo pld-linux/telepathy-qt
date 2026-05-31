@@ -8,7 +8,8 @@ Summary:	QtTelepathyClient library
 Summary(pl.UTF-8):	Biblioteka QtTelepathyClient
 Name:		telepathy-qt
 Version:	0.17.7
-Release:	0.%{snap}.3
+%define	rel	4
+Release:	0.%{snap}.%{rel}
 License:	LGPL v2.1
 Group:		X11/Applications
 Source0:	%{name}-%{version}-%{snap}.tar.gz
